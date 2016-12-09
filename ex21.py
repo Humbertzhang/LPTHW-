@@ -28,3 +28,10 @@ print "Here is a puzzle."
 what= add(age,subtract(height,multiply(weight,divide(iq,2))))
 
 print "That becomes: ",what,"Can you do it by hand?"
+#第四题
+a=divide(iq,2)
+b=multiply(weight,a)
+c=subtract(height,b)
+d=add(age,c)
+#这样可以给abcd赋上 函数return 的值。
+print d
