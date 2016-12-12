@@ -42,7 +42,7 @@ for state,abbrev in states.items():  #此处即定义了state,abbrev 分别为�
 #print every city in state
 print '5' * 10
 for abbrev,city in cities.items():
-	print "%s has the city %s and %s" %(abbrev,city)
+	print "%s has the city %s" %(abbrev,city)
 
 #Now do both at the same time
 print '6' * 10
