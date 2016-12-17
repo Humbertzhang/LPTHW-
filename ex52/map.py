@@ -81,12 +81,12 @@ do you take?
 
 the_end_winner = Room("The End",
 """
-You jump into pod 2 and hit the eject button.
-The pod easily slides out into space heading to
-the planet below.  As it flies to the planet, you look
-back and see your ship implode then explode like a
-bright star, taking out the Gothon ship at the same
-time.  You won!
+\t\t\t\t\t\tYou jump into pod 2 and hit the eject button.
+\t\t\t\t\t\tThe pod easily slides out into space heading to
+\t\t\t\t\t\tthe planet below.  As it flies to the planet, you look
+\t\t\t\t\t\tback and see your ship implode then explode like a
+\t\t\t\t\t\tbright star, taking out the Gothon ship at the same
+\t\t\t\t\t\ttime.  You won!
 """)
 
 the_end_loser = Room("The End",

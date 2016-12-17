@@ -1,15 +1,15 @@
 $def with (room)
 
-<h1> $room.name </h1>
-
+<h1 align="center"> $room.name </h1>
+<hr />
 <pre>
 $room.description
 </pre>
 
 $if room.name == "death":
-	<p><a href="/">Play Again?</a></p>
+	<p align="center"><a href="/">Play Again?</a></p>
 $elif room.name == "The End":
-	<p><a href="/">Very well~~~Play Again?</a></p>
+	<p align="center" ><a href="/">Very well!Play Again?</a></p>
 
 $else:
     <p>
